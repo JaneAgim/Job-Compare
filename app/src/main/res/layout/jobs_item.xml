@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="0dp">
+
+<!--  <TextView-->
+<!--      android:id="@+id/currentJob_item"-->
+<!--      android:layout_width="101dp"-->
+<!--      android:layout_height="wrap_content"-->
+<!--      android:layout_marginTop="0dp"-->
+<!--      android:layout_weight="1"-->
+<!--      android:paddingTop="0dp"-->
+<!--      android:text="Current job"-->
+
+<!--      android:textColor="#8A4D4D"-->
+<!--      android:textSize="14sp"-->
+<!--      android:textStyle="bold" />-->
+
+<!--  <TextView-->
+<!--      android:id="@+id/rankID_item"-->
+<!--      android:layout_width="50dp"-->
+<!--      android:layout_height="wrap_content"-->
+<!--      android:layout_marginTop="0dp"-->
+<!--      android:layout_weight="1"-->
+<!--      android:paddingTop="0dp"-->
+<!--      android:text="Rank"-->
+
+<!--      android:textColor="#8A4D4D"-->
+<!--      android:textSize="14sp"-->
+<!--      android:textStyle="bold" />-->
+
+<!--  <TextView-->
+<!--      android:id="@+id/titleID_item"-->
+<!--      android:layout_width="98dp"-->
+<!--      android:layout_height="wrap_content"-->
+<!--      android:layout_marginTop="0dp"-->
+<!--      android:layout_weight="1"-->
+<!--      android:paddingTop="0dp"-->
+<!--      android:text="Position"-->
+
+<!--      android:textColor="#8A4D4D"-->
+<!--      android:textSize="14sp"-->
+<!--      android:textStyle="bold" />-->
+
+<!--  <TextView-->
+<!--      android:id="@+id/companyID_item"-->
+<!--      android:layout_width="134dp"-->
+<!--      android:layout_height="wrap_content"-->
+<!--      android:layout_marginTop="0dp"-->
+<!--      android:layout_weight="1"-->
+<!--      android:paddingTop="0dp"-->
+<!--      android:text="Company"-->
+
+<!--      android:textColor="#8A4D4D"-->
+<!--      android:textSize="14sp"-->
+<!--      android:textStyle="bold" />-->
+
+  <TextView
+      android:id="@+id/titleID1_item"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_weight="1"
+      android:text="Title " />
+
+  <TextView
+      android:id="@+id/companyID_item"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_weight="1"
+      android:text="Company" />
+
+  <TextView
+      android:id="@+id/scoreID_item"
+      android:layout_width="214dp"
+      android:layout_height="45dp"
+      android:layout_weight="1"
+      android:hint="Score"
+      android:paddingTop="10sp"
+      android:textAlignment="center" />
+
+
+
+  </LinearLayout>
