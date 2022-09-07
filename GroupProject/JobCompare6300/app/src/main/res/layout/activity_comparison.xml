@@ -1,0 +1,576 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ComparisonActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#4D8A4D4D"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="72dp"
+            android:background="#6A8A4D4D"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textViewTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:paddingTop="20dp"
+                android:text="Comparison"
+                android:textAlignment="center"
+                android:textColor="#F1EEEE"
+                android:textSize="30sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="590dp"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="190dp"
+                android:layout_height="590dp"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="59dp"
+                    android:background="@drawable/customborder"
+                    android:backgroundTint="#00FFFFFF"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/header1ID"
+                        android:layout_width="match_parent"
+                        android:layout_height="44dp"
+                        android:layout_marginTop="0dp"
+                        android:layout_weight="1"
+                        android:paddingTop="0dp"
+                        android:text="Job 1"
+                        android:textAlignment="center"
+                        android:textColor="#8A4D4D"
+                        android:textSize="24sp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="59dp"
+                    android:background="@drawable/customborder"
+                    android:backgroundTint="#3E8A4D4D"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/titleID"
+                        android:layout_width="match_parent"
+                        android:layout_height="44dp"
+                        android:layout_marginTop="0dp"
+                        android:layout_weight="1"
+                        android:paddingTop="5dp"
+                        android:textAlignment="center" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="59dp"
+                    android:background="@drawable/customborder"
+                    android:backgroundTint="#008A4D4D"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/companyID"
+                        android:layout_width="match_parent"
+                        android:layout_height="44dp"
+                        android:layout_marginTop="0dp"
+                        android:layout_weight="1"
+                        android:paddingTop="5dp"
+                        android:textAlignment="center" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="59dp"
+                    android:background="@drawable/customborder"
+                    android:backgroundTint="#3E8A4D4D"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/locationID"
+                        android:layout_width="match_parent"
+                        android:layout_height="44dp"
+                        android:layout_marginTop="0dp"
+                        android:layout_weight="1"
+                        android:paddingTop="5dp"
+                        android:textAlignment="center" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="59dp"
+                    android:background="@drawable/customborder"
+                    android:backgroundTint="#008A4D4D"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/costOfLivingID"
+                        android:layout_width="match_parent"
+                        android:layout_height="44dp"
+                        android:layout_marginTop="0dp"
+                        android:layout_weight="1"
+                        android:paddingTop="5dp"
+                        android:textAlignment="center" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="59dp"
+                    android:background="@drawable/customborder"
+                    android:backgroundTint="#3E8A4D4D"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/salaryID"
+                        android:layout_width="match_parent"
+                        android:layout_height="44dp"
+                        android:layout_marginTop="0dp"
+                        android:layout_weight="1"
+                        android:paddingTop="5dp"
+                        android:textAlignment="center" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="59dp"
+                    android:background="@drawable/customborder"
+                    android:backgroundTint="#008A4D4D"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/bonusID"
+                        android:layout_width="match_parent"
+                        android:layout_height="44dp"
+                        android:layout_marginTop="0dp"
+                        android:layout_weight="1"
+                        android:paddingTop="5dp"
+                        android:textAlignment="center" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="59dp"
+                    android:background="@drawable/customborder"
+                    android:backgroundTint="#3E8A4D4D"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/teleworkDaysID"
+                        android:layout_width="match_parent"
+                        android:layout_height="44dp"
+                        android:layout_marginTop="0dp"
+                        android:layout_weight="1"
+                        android:paddingTop="5dp"
+                        android:textAlignment="center" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="59dp"
+                    android:background="@drawable/customborder"
+                    android:backgroundTint="#008A4D4D"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/leaveID"
+                        android:layout_width="match_parent"
+                        android:layout_height="44dp"
+                        android:layout_marginTop="0dp"
+                        android:layout_weight="1"
+                        android:paddingTop="5dp"
+                        android:textAlignment="center" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="59dp"
+                    android:background="@drawable/customborder"
+                    android:backgroundTint="#3E8A4D4D"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/gymID"
+                        android:layout_width="match_parent"
+                        android:layout_height="44dp"
+                        android:layout_marginTop="0dp"
+                        android:layout_weight="1"
+                        android:paddingTop="5dp"
+                        android:textAlignment="center" />
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="31dp"
+                android:layout_height="590dp"
+                android:background="#6A8A4D4D"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="59dp"
+                    android:orientation="horizontal"></LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="59dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/little1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:paddingTop="20dp"
+                        android:text="Title"
+                        android:textAlignment="center"
+                        android:textSize="12sp" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="59dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/little2"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:paddingTop="15dp"
+                        android:text="Com-pany"
+                        android:textAlignment="center"
+                        android:textSize="12sp" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="59dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/little3"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:paddingTop="20dp"
+                        android:text="Loca-tion"
+                        android:textAlignment="center"
+                        android:textSize="12sp" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="59dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/little4"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:paddingTop="20dp"
+                        android:text="COL"
+                        android:textAlignment="center"
+                        android:textSize="12sp" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="59dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/little5"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:paddingTop="20dp"
+                        android:text="Salary"
+                        android:textAlignment="center"
+                        android:textSize="11sp" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="59dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/little6"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:paddingTop="20dp"
+                        android:text="Bonus"
+                        android:textAlignment="center"
+                        android:textSize="10sp" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="59dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/little7"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:paddingTop="5dp"
+                        android:text="Tele- work Days"
+                        android:textAlignment="center"
+                        android:textSize="12sp" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="59dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/little8"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:paddingTop="20dp"
+                        android:text="Leave"
+                        android:textAlignment="center"
+                        android:textSize="11sp" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="59dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/little9"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:paddingTop="7dp"
+                        android:text="Gym Allowance"
+                        android:textAlignment="center"
+                        android:textSize="12sp" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="190dp"
+                android:layout_height="590dp"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="59dp"
+                    android:background="@drawable/customborder"
+                    android:backgroundTint="#00FFFFFF"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/header2ID"
+                        android:layout_width="match_parent"
+                        android:layout_height="44dp"
+                        android:layout_marginTop="0dp"
+                        android:layout_weight="1"
+                        android:paddingTop="0dp"
+                        android:text="Job 2"
+                        android:textAlignment="center"
+                        android:textColor="#8A4D4D"
+                        android:textSize="24sp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="59dp"
+                    android:background="@drawable/customborder"
+                    android:backgroundTint="#3E8A4D4D"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/title2ID"
+                        android:layout_width="match_parent"
+                        android:layout_height="44dp"
+                        android:layout_marginTop="0dp"
+                        android:layout_weight="1"
+                        android:paddingTop="5dp"
+                        android:textAlignment="center" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="59dp"
+                    android:background="@drawable/customborder"
+                    android:backgroundTint="#008A4D4D"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/company2ID"
+                        android:layout_width="match_parent"
+                        android:layout_height="44dp"
+                        android:layout_marginTop="0dp"
+                        android:layout_weight="1"
+                        android:paddingTop="5dp"
+                        android:textAlignment="center" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="59dp"
+                    android:background="@drawable/customborder"
+                    android:backgroundTint="#3E8A4D4D"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/location2ID"
+                        android:layout_width="match_parent"
+                        android:layout_height="44dp"
+                        android:layout_marginTop="0dp"
+                        android:layout_weight="1"
+                        android:paddingTop="5dp"
+                        android:textAlignment="center" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="59dp"
+                    android:background="@drawable/customborder"
+                    android:backgroundTint="#008A4D4D"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/costOfLiving2ID"
+                        android:layout_width="match_parent"
+                        android:layout_height="44dp"
+                        android:layout_marginTop="0dp"
+                        android:layout_weight="1"
+                        android:paddingTop="5dp"
+                        android:textAlignment="center" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="59dp"
+                    android:background="@drawable/customborder"
+                    android:backgroundTint="#3E8A4D4D"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/salary2ID"
+                        android:layout_width="match_parent"
+                        android:layout_height="44dp"
+                        android:layout_marginTop="0dp"
+                        android:layout_weight="1"
+                        android:paddingTop="5dp"
+                        android:textAlignment="center" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="59dp"
+                    android:background="@drawable/customborder"
+                    android:backgroundTint="#008A4D4D"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/bonus2ID"
+                        android:layout_width="match_parent"
+                        android:layout_height="44dp"
+                        android:layout_marginTop="0dp"
+                        android:layout_weight="1"
+                        android:paddingTop="5dp"
+                        android:textAlignment="center" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="59dp"
+                    android:background="@drawable/customborder"
+                    android:backgroundTint="#3E8A4D4D"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/teleworkDays2ID"
+                        android:layout_width="match_parent"
+                        android:layout_height="44dp"
+                        android:layout_marginTop="0dp"
+                        android:layout_weight="1"
+                        android:paddingTop="5dp"
+                        android:textAlignment="center" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="59dp"
+                    android:background="@drawable/customborder"
+                    android:backgroundTint="#008A4D4D"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/leave2ID"
+                        android:layout_width="match_parent"
+                        android:layout_height="44dp"
+                        android:layout_marginTop="0dp"
+                        android:layout_weight="1"
+                        android:paddingTop="5dp"
+                        android:textAlignment="center" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="59dp"
+                    android:background="@drawable/customborder"
+                    android:backgroundTint="#3E8A4D4D"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/gym2ID"
+                        android:layout_width="match_parent"
+                        android:layout_height="44dp"
+                        android:layout_marginTop="0dp"
+                        android:layout_weight="1"
+                        android:paddingTop="5dp"
+                        android:textAlignment="center" />
+                </LinearLayout>
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/returnID"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:backgroundTint="#6A8A4D4D"
+                android:insetLeft="5dp"
+                android:insetTop="5dp"
+                android:insetRight="5dp"
+                android:insetBottom="5dp"
+                android:onClick="onReturn"
+                android:text="Return" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
